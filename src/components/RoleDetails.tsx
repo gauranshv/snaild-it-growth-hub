@@ -6,13 +6,29 @@ const RoleDetails = () => {
     <section className="py-16 bg-white">
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl font-bold text-gray-900 mb-8">
             🎯 Founder's Office Associate (Creative & Ops)
           </h2>
-          <div className="flex flex-wrap justify-center gap-6 text-lg text-gray-700">
-            <span className="bg-lime-100 px-4 py-2 rounded-full">📍 Remote / Bangalore (hybrid preferred)</span>
-            <span className="bg-yellow-100 px-4 py-2 rounded-full">⏰ Part-time or Full-time (Flexible)</span>
-            <span className="bg-green-100 px-4 py-2 rounded-full">🚀 Start: Immediate</span>
+          
+          {/* New clean design pattern for job details */}
+          <div className="bg-gray-50 rounded-2xl p-6 max-w-4xl mx-auto">
+            <div className="grid md:grid-cols-3 gap-4">
+              <div className="text-center">
+                <div className="text-2xl mb-2">📍</div>
+                <div className="font-medium text-gray-900">Location</div>
+                <div className="text-sm text-gray-600">Remote / Bangalore (hybrid preferred)</div>
+              </div>
+              <div className="text-center">
+                <div className="text-2xl mb-2">⏰</div>
+                <div className="font-medium text-gray-900">Schedule</div>
+                <div className="text-sm text-gray-600">Part-time or Full-time (Flexible)</div>
+              </div>
+              <div className="text-center">
+                <div className="text-2xl mb-2">🚀</div>
+                <div className="font-medium text-gray-900">Start Date</div>
+                <div className="text-sm text-gray-600">Immediate</div>
+              </div>
+            </div>
           </div>
         </div>
 
