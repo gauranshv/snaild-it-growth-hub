@@ -16,7 +16,7 @@ const RoleDetails = () => {
           </div>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="space-y-12">
           <div className="bg-lime-50 rounded-xl p-8">
             <h3 className="text-2xl font-bold text-gray-900 mb-6">💼 What You'll Own:</h3>
             
@@ -56,7 +56,7 @@ const RoleDetails = () => {
             <ul className="text-gray-700 space-y-4">
               <li className="flex items-start">
                 <span className="text-yellow-600 font-bold mr-2">•</span>
-                A designer who wants to eventually turn their art into an online business
+                Is a designer who wants to eventually turn their art into an online business
               </li>
               <li className="flex items-start">
                 <span className="text-yellow-600 font-bold mr-2">•</span>
