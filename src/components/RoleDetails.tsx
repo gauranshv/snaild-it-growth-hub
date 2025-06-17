@@ -1,3 +1,4 @@
+
 import React from 'react';
 const RoleDetails = () => {
   return <section className="py-16 bg-white">
@@ -60,6 +61,15 @@ const RoleDetails = () => {
                   <li>• Be a brainstorming buddy to bring new design or business ideas to life</li>
                 </ul>
               </div>
+
+              <div>
+                <h4 className="text-xl font-semibold text-lime-800 mb-3">4. Social Media Support</h4>
+                <ul className="text-gray-700 space-y-2">
+                  <li>• Cross-posting content across different social media platforms</li>
+                  <li>• Brainstorming creative content ideas and campaign concepts</li>
+                  <li>• Moodboarding support for visual content and brand aesthetics</li>
+                </ul>
+              </div>
             </div>
           </div>
 
@@ -69,11 +79,11 @@ const RoleDetails = () => {
             <ul className="text-gray-700 space-y-4">
               <li className="flex items-start">
                 <span className="text-yellow-600 font-bold mr-2">•</span>
-                Is a designer who wants to eventually turn their art into an online business
+                Is an aspiring designer who can learn from assisting behind the scenes
               </li>
               <li className="flex items-start">
                 <span className="text-yellow-600 font-bold mr-2">•</span>
-                Has <strong> strong bias for action</strong>: you're self-driven and don't wait to be told what to do
+                Has <strong> strong bias for action</strong>: you're self-driven and don't wait to be told what to do
               </li>
               <li className="flex items-start">
                 <span className="text-yellow-600 font-bold mr-2">•</span>
