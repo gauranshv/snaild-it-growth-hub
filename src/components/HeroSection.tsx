@@ -1,17 +1,12 @@
-
 import React from 'react';
-
 const HeroSection = () => {
-  return (
-    <section className="bg-white py-20">
+  return <section className="bg-white py-20">
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
             Join the Snaild.it Team
           </h1>
-          <p className="text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed">
-            We're Not Just Building a Following — We're Building a Brand That's Brought in Business Since Day 1.
-          </p>
+          
         </div>
         
         <div className="bg-white border border-gray-100 rounded-2xl shadow-sm p-8 max-w-4xl mx-auto">
@@ -23,8 +18,6 @@ const HeroSection = () => {
           </p>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;
