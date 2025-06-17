@@ -1,9 +1,6 @@
-
 import React from 'react';
-
 const RoleDetails = () => {
-  return (
-    <section className="py-16 bg-white">
+  return <section className="py-16 bg-white">
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-gray-900 mb-8">
@@ -76,7 +73,7 @@ const RoleDetails = () => {
               </li>
               <li className="flex items-start">
                 <span className="text-yellow-600 font-bold mr-2">•</span>
-                Has <strong>a bias for action</strong>: you're self-driven and don't wait to be told what to do
+                Has <strong> strong bias for action</strong>: you're self-driven and don't wait to be told what to do
               </li>
               <li className="flex items-start">
                 <span className="text-yellow-600 font-bold mr-2">•</span>
@@ -98,8 +95,6 @@ const RoleDetails = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default RoleDetails;
