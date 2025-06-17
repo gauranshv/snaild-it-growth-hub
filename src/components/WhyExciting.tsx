@@ -17,6 +17,26 @@ const WhyExciting = () => {
             <div className="text-3xl mb-4">🎭</div>
             <p className="text-gray-700">Get to work on the <strong>behind the scenes</strong> of business</p>
           </div>
+          
+          <div className="bg-white rounded-xl p-8 shadow-sm border border-gray-100">
+            <div className="text-3xl mb-4">👥</div>
+            <p className="text-gray-700">Work <strong>directly with the founder</strong> of a fast-growing design-led business</p>
+          </div>
+          
+          <div className="bg-white rounded-xl p-8 shadow-sm border border-gray-100">
+            <div className="text-3xl mb-4">🎨</div>
+            <p className="text-gray-700">Get to be part of a purpose-driven, artistic brand with deep client impact</p>
+          </div>
+          
+          <div className="bg-white rounded-xl p-8 shadow-sm border border-gray-100">
+            <div className="text-3xl mb-4">🧠</div>
+            <p className="text-gray-700">Exposure to both business-building and design-thinking — no two days will feel the same</p>
+          </div>
+          
+          <div className="bg-white rounded-xl p-8 shadow-sm border border-gray-100">
+            <div className="text-3xl mb-4">✨</div>
+            <p className="text-gray-700">Flexible work environment with creative freedom and open brainstorming sessions</p>
+          </div>
         </div>
       </div>
     </section>
