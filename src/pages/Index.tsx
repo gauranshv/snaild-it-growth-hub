@@ -5,6 +5,7 @@ import HeroSection from '../components/HeroSection';
 import RoleDetails from '../components/RoleDetails';
 import WhyExciting from '../components/WhyExciting';
 import ApplicationSection from '../components/ApplicationSection';
+import InstagramShowcase from '../components/InstagramShowcase';
 import Footer from '../components/Footer';
 
 const Index = () => {
@@ -15,6 +16,7 @@ const Index = () => {
       <RoleDetails />
       <WhyExciting />
       <ApplicationSection />
+      <InstagramShowcase />
       <Footer />
     </div>
   );
