@@ -1,4 +1,3 @@
-
 import React from 'react';
 const RoleDetails = () => {
   return <section className="py-16 bg-white">
@@ -83,7 +82,7 @@ const RoleDetails = () => {
               </li>
               <li className="flex items-start">
                 <span className="text-yellow-600 font-bold mr-2">•</span>
-                Has <strong> strong bias for action</strong>: you're self-driven and don't wait to be told what to do
+                Has <strong> strong bias for action</strong>: you're self-driven and don't wait to be told what to do
               </li>
               <li className="flex items-start">
                 <span className="text-yellow-600 font-bold mr-2">•</span>
@@ -99,7 +98,7 @@ const RoleDetails = () => {
               </li>
               <li className="flex items-start">
                 <span className="text-yellow-600 font-bold mr-2">•</span>
-                <strong>Bonus:</strong> Experience with Canva, Figma, or any design tools is a big plus
+                <strong>Bonus: </strong> Experience with Canva, Figma, or any design tools is a big plus
               </li>
             </ul>
           </div>
