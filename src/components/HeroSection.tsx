@@ -19,15 +19,6 @@ const HeroSection = () => {
             With <span className="font-semibold">5,000+ engaged followers</span> and a growing list of delighted clients, 
             we're scaling intentionally — and we're looking for the right person to help us do it.
           </p>
-          
-          <div className="bg-lime-100 border-l-4 border-lime-500 p-6 rounded-r-lg">
-            <p className="text-lg font-bold text-gray-900 mb-2">
-              🎯 Perfect for someone who wants to learn how to run an online business
-            </p>
-            <p className="text-gray-700">
-              This isn't just an assistant role — it's a front-row seat to building, scaling, and monetizing a creative business from the inside out.
-            </p>
-          </div>
         </div>
       </div>
     </section>

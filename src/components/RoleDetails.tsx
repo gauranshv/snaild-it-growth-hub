@@ -1,6 +1,8 @@
 import React from 'react';
+
 const RoleDetails = () => {
-  return <section className="py-16 bg-white">
+  return (
+    <section className="py-16 bg-white">
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-gray-900 mb-8">🎯 Executive Assistant (Design &amp; Ops)</h2>
@@ -24,6 +26,16 @@ const RoleDetails = () => {
                 <div className="text-sm text-gray-600">Immediate</div>
               </div>
             </div>
+          </div>
+          
+          {/* Moved section from HeroSection */}
+          <div className="bg-lime-100 border-l-4 border-lime-500 p-6 rounded-r-lg max-w-4xl mx-auto mt-8">
+            <p className="text-lg font-bold text-gray-900 mb-2">
+              🎯 Perfect for someone who wants to learn how to run an online business
+            </p>
+            <p className="text-gray-700">
+              This isn't just an assistant role — it's a front-row seat to building, scaling, and monetizing a creative business from the inside out.
+            </p>
           </div>
         </div>
 
@@ -80,7 +92,7 @@ const RoleDetails = () => {
               </li>
               <li className="flex items-start">
                 <span className="text-yellow-600 font-bold mr-2">•</span>
-                Has <strong> strong bias for action</strong>: you're self-driven and don't wait to be told what to do
+                Has <strong> strong bias for action</strong>: you're self-driven and don't wait to be told what to do
               </li>
               <li className="flex items-start">
                 <span className="text-yellow-600 font-bold mr-2">•</span>
@@ -96,12 +108,14 @@ const RoleDetails = () => {
               </li>
               <li className="flex items-start">
                 <span className="text-yellow-600 font-bold mr-2">•</span>
-                <strong>Bonus: </strong> Experience with Canva, Figma, or any design tools is a big plus
+                <strong>Bonus: </strong> Experience with Canva, Figma, or any design tools is a big plus
               </li>
             </ul>
           </div>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
+
 export default RoleDetails;
